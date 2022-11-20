@@ -79,19 +79,19 @@ const Trade = () => {
 			<Card>
 				<strong>Most <span className='callout'>Popular</span> Stonks!</strong>
 				{loading && <LoadingIndicator />}
-				{!loading && <Tabular key={loading} data={popular} />}
+				{!loading && <Tabular data={popular} />}
 			</Card>
 
 			<Card>
 				<strong>Your Orders</strong>
 				{loading && <LoadingIndicator />}
-				{!loading && <Tabular key={loading} data={orders} />}
+				{!loading && <Tabular data={orders} />}
 			</Card>
 
 			<Card>
 				<strong>Your Match History</strong>
 				{loading && <LoadingIndicator />}
-				{!loading && <Tabular key={loading} data={matches} />}
+				{!loading && <Tabular data={matches} />}
 			</Card>
 
 			<Card>
