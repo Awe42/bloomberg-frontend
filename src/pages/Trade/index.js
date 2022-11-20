@@ -65,7 +65,6 @@ const Trade = () => {
 	const submitOrder = () => {
 		axios.post(`https://bloomberg-backend.herokuapp.com/${type.toLowerCase()}`, {type: type, side: side, security: security, price: price, qty: qty, user: user})
 			.then((response) => console.log(response.status))
-			.then(window.location.reload(false))
 			.catch((error) => console.error(error));
 	}
 	
