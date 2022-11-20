@@ -1,0 +1,40 @@
+.hero {
+	position: relative;
+	background: url(../../assets/depthchart.png) var(--offwhite) no-repeat center top fixed;
+	background-size: 100%;
+	max-height: 600px;
+	min-height: 300px;
+	height: 45vh;
+}
+
+.titles {
+	height: 0;
+	z-index: 2;
+	position: relative;
+	font-family: var(--font-header), var(--font-list);
+	text-transform: uppercase;
+	/*top: calc(14.5vh - 56px)*/
+	top: calc(30% - 56px);
+	text-align: center;
+	/*top: 80px;*/
+}
+
+.titles h1 {
+	font-size: 2.875em;
+	font-weight: 800;
+	line-height: 1;
+}
+
+.titles h3 {
+	line-height: 2;
+	font-weight: 200;
+	letter-spacing: 2px;
+	font-size: 1em;
+	color: #5e7283;
+}
+
+@media screen and (max-width: 421px) {
+	.hero {
+		background-size: auto 45%;
+	}
+}

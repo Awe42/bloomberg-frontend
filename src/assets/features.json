@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Order Book",
+    "text": "You can add or delete new buy/sell orders"
+  },
+  {
+    "title": "Matching System",
+    "text": "Your order will be matched with available orders"
+  },
+  {
+    "title": "Orders & Match History",
+    "text": "See your own orders and match history in a dashboard!"
+  },
+  {
+    "title": "Interactive UI",
+    "text": "A clean, appealing user interface with no bullshit"
+  },
+  {
+    "title": "PWA",
+    "text": "Progressive Web App (PWA) - you get the same thing on your phone and browser!"
+  },
+  {
+    "title": "Stats!",
+    "text": "Some statistics to help break down your trading activities"
+  }
+]
