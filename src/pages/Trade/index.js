@@ -28,7 +28,7 @@ const Trade = () => {
 
 	const fetchPopular = () => {
 		setLoading(true);
-		axios.get(`/listPopular`)
+		axios.get(`https://bloomberg-backend.herokuapp.com/listPopular`)
 			.then((response) => setPopular(response.data))
 			.then(setLoading(false))
 			.catch((error) => console.error(error));
@@ -43,7 +43,7 @@ const Trade = () => {
 
 	const fetchOrders = () => {
 		setLoading(true);
-		axios.get(`/listOrders/${user}`)
+		axios.get(`https://bloomberg-backend.herokuapp.com/listOrders/${user}`)
 			.then((response) => setOrders(response.data))
 			.then(setLoading(false))
 			.catch((error) => console.error(error));
@@ -51,7 +51,7 @@ const Trade = () => {
 
 	const fetchMatches = () => {
 		setLoading(true);
-		axios.get(`/listMatches/${user}`)
+		axios.get(`https://bloomberg-backend.herokuapp.com/listMatches/${user}`)
 			.then((response) => setMatches(response.data))
 			.then(setLoading(false))
 			.catch((error) => console.error(error));
