@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/bloomberg-frontend/static/css/main.87c14868.css",
+    "main.js": "/bloomberg-frontend/static/js/main.afe027dc.js",
+    "static/css/942.f42df821.chunk.css": "/bloomberg-frontend/static/css/942.f42df821.chunk.css",
+    "static/js/942.66b03d8e.chunk.js": "/bloomberg-frontend/static/js/942.66b03d8e.chunk.js",
+    "static/css/806.f1c072b8.chunk.css": "/bloomberg-frontend/static/css/806.f1c072b8.chunk.css",
+    "static/js/806.247a420c.chunk.js": "/bloomberg-frontend/static/js/806.247a420c.chunk.js",
+    "static/css/815.5ee57c83.chunk.css": "/bloomberg-frontend/static/css/815.5ee57c83.chunk.css",
+    "static/js/815.bf718a40.chunk.js": "/bloomberg-frontend/static/js/815.bf718a40.chunk.js",
+    "static/js/896.d6f306de.chunk.js": "/bloomberg-frontend/static/js/896.d6f306de.chunk.js",
+    "static/js/87.167e5257.chunk.js": "/bloomberg-frontend/static/js/87.167e5257.chunk.js",
+    "service-worker.js": "/bloomberg-frontend/service-worker.js",
+    "static/media/depthchart.png": "/bloomberg-frontend/static/media/depthchart.27e6cb67937ca8559495.png",
+    "static/media/twitter_heart.png": "/bloomberg-frontend/static/media/twitter_heart.fa922e043a9717eb2a4b.png",
+    "index.html": "/bloomberg-frontend/index.html",
+    "static/media/link.svg": "/bloomberg-frontend/static/media/link.3a9b6b5aa6859dcf3cc5.svg",
+    "main.87c14868.css.map": "/bloomberg-frontend/static/css/main.87c14868.css.map",
+    "main.afe027dc.js.map": "/bloomberg-frontend/static/js/main.afe027dc.js.map",
+    "942.f42df821.chunk.css.map": "/bloomberg-frontend/static/css/942.f42df821.chunk.css.map",
+    "942.66b03d8e.chunk.js.map": "/bloomberg-frontend/static/js/942.66b03d8e.chunk.js.map",
+    "806.f1c072b8.chunk.css.map": "/bloomberg-frontend/static/css/806.f1c072b8.chunk.css.map",
+    "806.247a420c.chunk.js.map": "/bloomberg-frontend/static/js/806.247a420c.chunk.js.map",
+    "815.5ee57c83.chunk.css.map": "/bloomberg-frontend/static/css/815.5ee57c83.chunk.css.map",
+    "815.bf718a40.chunk.js.map": "/bloomberg-frontend/static/js/815.bf718a40.chunk.js.map",
+    "896.d6f306de.chunk.js.map": "/bloomberg-frontend/static/js/896.d6f306de.chunk.js.map",
+    "87.167e5257.chunk.js.map": "/bloomberg-frontend/static/js/87.167e5257.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87c14868.css",
+    "static/js/main.afe027dc.js"
+  ]
+}
