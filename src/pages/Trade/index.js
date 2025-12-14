@@ -28,7 +28,7 @@ const Trade = () => {
 
 	const fetchPopular = () => {
 		setLoading(true);
-		axios.get(`https://bloomberg-backend.herokuapp.com/listPopular`)
+		axios.get(`https://bloomberg-backend.onrender.com/listPopular`)
 			.then((response) => setPopular(response.data))
 			.then(setLoading(false))
 			.catch((error) => console.error(error));
@@ -41,29 +41,28 @@ const Trade = () => {
 		}
 	}, [])
 
-	const fetchOrders = () => {
-		setLoading(true);
-		axios.get(`https://bloomberg-backend.herokuapp.com/listOrders/${user}`)
-			.then((response) => setOrders(response.data))
-			.then(setLoading(false))
-			.catch((error) => console.error(error));
-	}
-
-	const fetchMatches = () => {
-		setLoading(true);
-		axios.get(`https://bloomberg-backend.herokuapp.com/listMatches/${user}`)
-			.then((response) => setMatches(response.data))
-			.then(setLoading(false))
-			.catch((error) => console.error(error));
-	}
-
 	useEffect(() => {
+		const fetchOrders = () => {
+			setLoading(true);
+			axios.get(`https://bloomberg-backend.onrender.com/listOrders/${user}`)
+				.then((response) => { console.log(response.data); setOrders(response.data); })
+				.then(setLoading(false))
+				.catch((error) => console.error(error));
+		}
+
+		const fetchMatches = () => {
+			setLoading(true);
+			axios.get(`https://bloomberg-backend.onrender.com/listMatches/${user}`)
+				.then((response) => setMatches(response.data))
+				.then(setLoading(false))
+				.catch((error) => console.error(error));
+		}
 		fetchOrders();
 		fetchMatches();
-	}, []);
+	}, [user]);
 
 	const submitOrder = () => {
-		axios.post(`https://bloomberg-backend.herokuapp.com/${type.toLowerCase()}`, {type: type, side: side, security: security, price: price, qty: qty, user: user})
+		axios.post(`https://bloomberg-backend.onrender.com/${type.toLowerCase()}`, {type: type, side: side, security: security, price: price, qty: qty, user: user})
 			.then((response) => console.log(response.status))
 			.then(window.location.reload(false))
 			.catch((error) => console.error(error));
